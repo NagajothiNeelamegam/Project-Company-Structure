@@ -1,0 +1,23 @@
+TechnicalLead:
+
+Extends: Employee and Manager
+
+Attributes:
+
+headCount (int)
+
+directReports (List<SoftwareEngineer>)
+
+Methods:
+
+TechnicalLead(String name): constructor
+
+boolean hasHeadCount(): checks if has headcount for reports
+
+boolean addReport(SoftwareEngineer e): adds report if headcount allows
+
+boolean approveCheckIn(SoftwareEngineer e): approves check-in if valid
+
+boolean requestBonus(Employee e, double bonus): requests bonus for employee
+
+String getTeamStatus(): returns team status with reports' information
