@@ -1,0 +1,13 @@
+TechnicalEmployee:
+
+Extends: Employee
+
+Attributes:
+
+successfulCheckIns (int)
+
+Methods:
+
+TechnicalEmployee(String name): constructor
+
+String employeeStatus(): returns employee status with check-in count
