@@ -1,0 +1,29 @@
+Employee:
+
+Attributes:
+
+name (String)
+
+baseSalary (double)
+
+id (int) (assigned sequentially)
+
+manager (Employee)
+
+Methods:
+
+Employee(String name, double baseSalary): constructor
+
+double getBaseSalary(): returns base salary
+
+String getName(): returns name
+
+int getEmployeeID(): returns ID
+
+Employee getManager(): returns manager
+
+boolean equals(Employee other): compares two employees
+
+String toString(): returns string representation
+
+String employeeStatus(): returns employee status (abstract)
