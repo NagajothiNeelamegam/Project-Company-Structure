@@ -1,0 +1,19 @@
+SoftwareEngineer:
+
+Extends: TechnicalEmployee
+
+Attributes:
+
+codeAccess (boolean)
+
+Methods:
+
+SoftwareEngineer(String name): constructor
+
+boolean getCodeAccess(): returns code access
+
+void setCodeAccess(boolean access): sets code access
+
+int getSuccessfulCheckIns(): returns successful check-in count
+
+boolean checkInCode(): attempts to check in code and updates access
