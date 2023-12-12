@@ -1,0 +1,15 @@
+BusinessEmployee:
+
+Extends: Employee
+
+Attributes:
+
+bonusBudget (double)
+
+Methods:
+
+BusinessEmployee(String name): constructor
+
+double getBonusBudget(): returns bonus budget
+
+String employeeStatus(): returns employee status with budget
