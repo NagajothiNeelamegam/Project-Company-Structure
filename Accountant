@@ -1,0 +1,19 @@
+Accountant:
+
+Extends: BusinessEmployee
+
+Attributes:
+
+teamSupported (TechnicalLead)
+
+Methods:
+
+Accountant(String name): constructor
+
+TechnicalLead getTeamSupported(): returns supported team
+
+void supportTeam(TechnicalLead lead): assigns team to support and updates budget
+
+boolean approveBonus(double bonus): approves bonus based on budget
+
+String employeeStatus(): returns employee status with team and budget
