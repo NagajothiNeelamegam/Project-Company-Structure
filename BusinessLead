@@ -1,0 +1,23 @@
+BusinessLead:
+
+Extends: Employee and Manager
+
+Attributes:
+
+bonusBudget (double)
+
+directReports (List<Accountant>)
+
+Methods:
+
+BusinessLead(String name): constructor
+
+boolean hasHeadCount(): checks if has headcount for reports
+
+boolean addReport(Accountant e, TechnicalLead supportTeam): adds report and assigns team
+
+boolean requestBonus(Employee e, double bonus): requests bonus for employee
+
+boolean approveBonus(Employee e, double bonus): checks and approves bonus
+
+String getTeamStatus(): returns team status with reports' information
